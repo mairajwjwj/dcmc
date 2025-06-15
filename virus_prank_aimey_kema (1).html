@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Initializing...</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: #00ff00;
+      font-family: monospace;
+      font-size: 16px;
+      padding: 20px;
+      animation: flicker 1.5s infinite alternate;
+    }
+
+    @keyframes flicker {
+      0% {opacity: 0.9;}
+      100% {opacity: 1;}
+    }
+
+    .warning {
+      color: red;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .hidden {
+      opacity: 0.1;
+    }
+
+    .blink {
+      animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink {
+      0% {opacity: 1;}
+      50% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <h1>[ ACCESSING DATABASE... ]</h1>
+  <p>Target: <strong>aimey_kema</strong></p>
+  <p>Extracting phone number: <strong>0104654688</strong></p>
+  <p class="blink">Injecting malware module...</p>
+  <p>Bypassing firewall... [ █ █ █ █ █ █ █ █ █ ]</p>
+  <p class="warning">WARNING: UNAUTHORIZED ACCESS DETECTED</p>
+  <p class="blink">Launching payload in 3... 2... 1...</p>
+  <p class="hidden">Just Kidding 😎 - This is a harmless prank!</p>
+</body>
+</html>
